@@ -1,0 +1,23 @@
+body {
+  background-color: #198de6; /* cor de fundo azul */
+  font-family: Arial, sans-serif;
+}
+.container {
+  max-width: 600px;
+  margin: 20px auto;
+  background-color: #f3eba4;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.task-list {
+  list-style-type: none;
+  padding: 0;
+}
+.task-list li {
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.task-list li.completed {
+  text-decoration: line-through;
+}

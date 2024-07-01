@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lista de Tarefas</title>
+
+<link rel="stylesheet" href="styl.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Lista de Tarefas</h1>
+          <form id="taskForm">
+            <label for="taskName">Nova Tarefa:</label>
+            <input type="text" id="taskName" name="taskName" required placeholder="Ex: Arrumar a casa">
+            <button  class="button" type="submit">Adicionar</button>
+            <button type="button" id="cancelButton">Cancelar</button>
+        </form>
+        <ul class="task-list" id="taskList">
+            <!-- Aqui serão adicionados os itens da lista de tarefas -->
+        </ul>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
